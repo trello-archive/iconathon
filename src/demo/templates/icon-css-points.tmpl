@@ -1,0 +1,27 @@
+// Import Font
+
+@font-face {
+  font-family: "<%= fontName %>";
+  src:
+    data-uri("../build/weights/<%= weight %>/fonts/<%= fontName %>.woff") format("woff"),
+    url("../build/weights/<%= weight %>/fonts/<%= fontName %>.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// Icon Weight
+
+.icon-lg.mod-<%= weight %>,
+.icon-sm.mod-<%= weight %> {
+  font-family: "<%= fontName %>";
+}
+
+
+// Icon Points
+
+<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>-<%= weight %>:before {
+  content: "\<%= glyph.codepoint.toString(16) %>";
+}
+
+<% }); %>

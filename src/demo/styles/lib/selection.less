@@ -1,0 +1,27 @@
+.selection {
+  display: block;
+}
+
+  .selection-item {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+    .selection-item-link {
+      border-radius: 4px;
+      display: inline-block;
+      margin-right: 4px;
+      padding: 8px 16px;
+      vertical-align: top;
+    }
+
+      .selection-item-link:hover {
+        background-color: @light-gray-100;
+      }
+
+
+// State
+
+.selection-item-link.is-active {
+  background-color: @light-gray-200;
+}

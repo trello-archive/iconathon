@@ -1,0 +1,107 @@
+// Default Icon Colors
+
+.icon-lg,
+.icon-sm {
+  color: @light-gray-900;
+}
+
+
+// Stateful Colors
+
+.icon-lg.dark,
+.icon-sm.dark,
+.icon-lg.dark-hover:hover,
+.icon-sm.dark-hover:hover,
+.dark-hover:hover .icon-lg,
+.dark-hover:hover .icon-sm {
+  color: @light-gray-900;
+  text-decoration: none;
+}
+
+.icon-lg.light,
+.icon-sm.light,
+.icon-lg.light-hover:hover,
+.icon-sm.light-hover:hover,
+.light-hover:hover .icon-lg,
+.light-hover:hover .icon-sm {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+// Custom Image
+
+.icon-sm.custom-image,
+.icon-lg.custom-image {
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+  .icon-sm.custom-image img,
+  .icon-lg.custom-image img {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+// Visibility
+
+.icon-private {
+  color: @red-500;
+}
+
+  .dark-hover:hover .icon-private,
+  .icon-private.dark-hover:hover {
+    color: @red-600;
+  }
+
+.icon-organization-visible {
+  color: @yellow-500;
+}
+
+  .dark-hover:hover .icon-organization-visible,
+  .icon-organization-visible.dark-hover:hover {
+    color: @yellow-600;
+  }
+
+.icon-public {
+  color: @green-500;
+}
+
+  .dark-hover:hover .icon-public,
+  .icon-public.dark-hover:hover {
+    color: @green-600;
+  }
+
+
+// Other Colors
+
+.icon-star-active {
+  color: @yellow-500;
+}
+
+.icon-business-class-color {
+  color: hsl(202, 11%, 50%);
+}
+
+.icon-trello-gold.icon-color {
+  color: hsl(55, 65%, 40%);
+}
+
+
+
+// Third-party Colors
+
+.icon-facebook-brand-color {
+  color: #3B5998;
+}
+
+.icon-google-brand-color {
+  color: #e11a31;
+}
+
+.icon-twitter-brand-color {
+  color: #00aced;
+}

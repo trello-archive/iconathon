@@ -1,0 +1,4 @@
+{
+  "formats": ["SVG", "Font"],
+  "fontSizes": ["sm", "lg"]
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./node_modules/browserify/bin/cmd.js -t coffeeify ./src/demo/scripts/entry/app.coffee | node_modules/uglify-js/bin/uglifyjs > ./build/demo/app.js;
+./node_modules/gulp/bin/gulp.js;
