@@ -16,12 +16,10 @@ environment and software used._
 
 First, you’ll need to…
 
-1. `brew install imagemagick` (version => `6.9.0-3`)
-2. `brew install graphicsmagick` (version => `1.3.20`)
-3. `brew install Caskroom/cask/xquartz`
-4. `brew install LibRSVG` (version => `2.36.3_1`)
-5. install [sketchtool](http://bohemiancoding.com/sketch/tool/) (version => 1.4)
-6. `npm install`
+1. Make sure you have [Homebrew](http://brew.sh/) installed.
+2. `$ brew tap Homebrew/bundle`
+3. `$ brew bundle`
+4. `$ npm install`
 
 Once you’ve got all the packages, run…
 
