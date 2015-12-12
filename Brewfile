@@ -1,0 +1,6 @@
+tap 'caskroom/cask'
+brew 'imagemagick', version: '6.9.0-3'
+brew 'graphicsmagick', version: '1.3.20'
+brew 'LibRSVG', version: '2.36.3_1'
+cask 'sketch-tool', version: '1.4'
+cask 'xquartz'
